@@ -825,6 +825,15 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+blockquote{
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    color: #000;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
