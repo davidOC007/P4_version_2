@@ -13,9 +13,13 @@ button {
     outline: none!important;
 }
 
-a:hover {
+a:hover, a:focus {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus{
+    border:solid #000 1px;
 }
 
 #page-loading-blocs-notifaction {
@@ -103,7 +107,7 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
+.d-bloc button:hover, .d-bloc button:focus {
     color: rgba(255, 255, 255, .9);
 }
 
@@ -342,7 +346,7 @@ a:hover {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-toggle:hover, .navbar-toggle:focus {
     background: transparent!important;
 }
 
@@ -536,7 +540,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -554,7 +558,7 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img, a[data-lightbox]:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -600,9 +604,9 @@ a[data-lightbox]:hover img {
     opacity: 0.3;
 }
 
-.close-lightbox:hover,
-.next-lightbox:hover,
-.prev-lightbox:hover {
+.close-lightbox:hover, .close-lightbox:focus,
+.next-lightbox:hover, .next-lightbox:focus,
+.prev-lightbox:hover, .prev-lightbox:focus {
     opacity: 1.0;
     color: #FFF;
 }
@@ -783,7 +787,7 @@ h4 {
     color: #000!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -792,7 +796,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover, .ltc-white:focus {
     color: #cccccc!important;
 }
 
@@ -800,7 +804,7 @@ h4 {
     color: #F3976C!important;
 }
 
-.ltc-atomic-tangerine:hover {
+.ltc-atomic-tangerine:hover,.ltc-atomic-tangerine:focus {
     color: #c27956!important;
 }
 
@@ -940,7 +944,7 @@ blockquote{
         padding-left: 15px;
         width: 100%;
     }
-    .nav > li:hover {
+    .nav > li:hover, .nav > li:focus {
         background: rgba(0, 0, 0, .08);
     }
     .dropdown .dropdown a .caret {
