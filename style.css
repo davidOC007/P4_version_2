@@ -442,6 +442,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size:18px;
 }
 
 .mg-lg {
@@ -681,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -1045,6 +1046,9 @@ blockquote{
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    #bloc-5-cta h2{
+        font-size: 18px;
     }
 }
 
