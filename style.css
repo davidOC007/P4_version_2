@@ -839,6 +839,10 @@ blockquote{
     color: #000;
 }
 
+#bloc-6{
+    background-color: #d2691e;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
