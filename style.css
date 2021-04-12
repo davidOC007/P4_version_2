@@ -780,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFF!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -1059,5 +1059,10 @@ blockquote{
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .imgcenter {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
